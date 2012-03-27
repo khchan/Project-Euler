@@ -1,6 +1,6 @@
-def multiples_of_3_or_5():
-    for number in xrange(1000):
-        if not number % 3 or not number % 5:
-            yield number
+def mult_3_or_5():
+    for n in xrange(1000):
+        if not n % 3 or not n % 5:
+            yield n
 
-print sum(multiples_of_3_or_5())
+print sum(mult_3_or_5())
